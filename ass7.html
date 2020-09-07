@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 7</title>
+    </head>
+    <body>
+        <input type="text" id="name" placeholder="Text" />
+        <input type="text" id="copy" placeholder="Text"/>
+        <button onclick="copyText()">Click</button>
+        <script>
+            function copyText(){
+                const ele = document.getElementById("name");
+                const ele1=document.getElementById("copy");
+                ele1.value=ele.value;
+            }
+        </script>
+    </body>
+</html>
